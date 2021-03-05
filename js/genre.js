@@ -14,7 +14,8 @@ $(function(){
                                 <h3>${data.data.movies[i].title}</h3>
                                 <p class="rating">Rating : ${data.data.movies[i].rating}</p>
                               </div>
-                              <a href="/movie_api/detail.php?id=${data.data.movies[i].id}">Details</a>
+                             
+                              <a href="${data.data.movies[i].url}">Details</a>
                             </div>
                           </div>`;
                           getGenres += genreHMTL;
@@ -35,7 +36,7 @@ $(function(){
   getGenre('romance', '.romance-contents', '#romanceSlide');
   getGenre('drama', '.drama-contents', '#dramaSlide');
 
-  $("a.lSPrev").html("<i class='fas fa-angle-left fa-2x' ></i>");
-$("a.lSNext").html("<i class='fas fa-angle-right fa-2x'></i>");
+  $("a.lSPrev").html("<i class='fas fa-angle-left fa-2x'></i>");
+  $("a.lSNext").html("<i class='fas fa-angle-right fa-2x'></i>");
 
 });

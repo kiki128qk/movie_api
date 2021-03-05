@@ -22,7 +22,7 @@ $(function(){
           slideMove:1,
           auto:true,
           loop:true,
-          speed:200,
+          speed:600,
         });
       }
     });
