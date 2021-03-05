@@ -1,6 +1,6 @@
 <?php
-  $client_id = "lG_M_b_JEtMowXAGBNrF";
-  $client_secret = "QlUoMwfIuG";
+  $client_id = "uJQFRp3AqfvVCNB82J8u";
+  $client_secret = "uSJLmXSexZ";
   $encText = urlencode($_POST['search_value']);
   $url = "https://openapi.naver.com/v1/search/movie.json?query=".$encText; // json 결과
 //  $url = "https://openapi.naver.com/v1/search/blog.xml?query=".$encText; // xml 결과

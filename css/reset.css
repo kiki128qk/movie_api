@@ -1,0 +1,25 @@
+/* font style */
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* call font-family
+font-family: 'Black Han Sans', sans-serif;
+font-family: 'Noto Sans KR', sans-serif; */
+/* font-family: 'Lobster', cursive; */
+
+
+/* Reset CSS */
+*{margin:0; padding:0; box-sizing:border-box;}  
+body{font-size:15px; font-family: 'Noto Sans KR', sans-serif; color: #fff;}
+.clear:after{clear:both; display:block; content:'';}
+.center{width:100%; height:auto; max-width:1000px; margin:auto;}
+ol, ul{list-style:none;}
+a{text-decoration: none; color:#fff;}
+img{display:block;}
+button, input, textarea{border: 0; outline:0; font-family: 'Noto Sans KR', sans-serif;}
+input{-webkit-appearance: auto; border-radius:0;}
+/* input:focus, textarea:focus{background:#f8f8f8;} */
+
+/* Contents Wrap Style */
+.wrap{width:100%; height:auto; background: #391A2E; display:flex; justify-content: space-between; flex-direction: column;}

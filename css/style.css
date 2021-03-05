@@ -1,0 +1,69 @@
+
+header {width: 100%; height: auto; background: #000; }
+.header{width: 70%; height: auto; display: flex; justify-content: center; margin: auto;}
+header h1{width: 30%; height: 80px; align-items: center; text-align: center;  line-height: 2; }
+header h1 a{font-family:'Lobster',cursive; font-style: normal;font-size: 38px;}
+header .nav {width: 100%; height: 80px; display: flex;  justify-content: flex-end; align-items: center;}
+header .nav li{font-size: 20px; padding: 15px; justify-content: space-between;}
+
+.searchSce{width: 100%;height: auto; position: relative;}
+
+/* search-box style */
+.search-box {width: 100%; height: auto; display: flex; z-index: 999;position: absolute; justify-content: center; top: 235px;}
+.search-box .searchInput{width: 30%; height: 40px; font-size: 20px;border: 4px solid #F8C160}
+.search-box .sendBtn{width: 5%; height: auto; font-size: 18px; font-weight: 500; border: 3px solid #F8C160; background: #F8C160; }
+
+.bannerSec .Banner {width: 100%; height: auto; margin: 15px 0; display: flex; opacity: 0.6; }
+
+/* numContainer style */
+
+.numContainer{width:100%; height:auto; _margin:auto; max-width:70%; margin:30px auto 50px;}
+
+.numContainer>h3{font-size: 28px; border-bottom: 3px solid #F8C160; margin-bottom: 15px;}
+.numContainer>h3 a{margin: 10px;line-height: 1.8;}
+
+.numContainer .loading{width:100%; height:784px; top:0; left:0; padding:100px 0; display:flex; align-items: center; justify-content: center;}
+.numContainer .loading img{width: 30%; height:auto; z-index:1;}
+
+.container{width:100%; height:auto; margin:auto; max-width:95%;}
+.recent-movie-wrap{float:left; width:20%; padding: 0 10px;}
+.recent-movie-wrap img{width:100%;}
+.recent-movie-wrap h3{font-size:14px; white-space: nowrap; text-overflow: ellipsis; width:100%; overflow:hidden; text-align: center; margin: 5% auto;
+}
+
+
+
+/* Recent Movies Section Style  */
+.recent-section{width:100%; height:auto; padding:50px 0;}
+.recent-section .section-title{width:100%; height:auto;margin:15px 0; padding-left:15px; border-left:2px solid #F8C160;}
+.recent-section .section-title h2{ color:#F8C160; }
+.recent-section .recent-moive-wrap{width:20%; padding:5px;}
+.recent-section .recent-movies{width:100%; height:100%; padding:5px; box-shadow:0 0 3px #aaa; position:relative;}
+.recent-section .loading{width:100%; height:784px; top:0; left:0; padding:100px 0; display:flex; align-items: center; justify-content: center;}
+.recent-section .recent-movies .loading img{width:100%; height:100%; z-index:1;}
+.recent-section .recent-movies img{width:100%; z-index:10;}
+.recent-section .recent-movies .recent-movie-title{ font-weight:500; padding:20px 0; font-size:18px; width:100%; text-align:center;}
+/* .container .movie-img{filter: blur(0);transition: all 0.4;}
+.movie-img:hover{} */
+
+.numBtns{width:100%; height:auto; display:flex; justify-content: center; padding:15px 0;}
+.numBtns button{width:25px; height:25px; border:1px solid #fff; background:#fff; font-size:14px; outline:0; display:flex; justify-content: center; align-items: center; color:#F8C160; margin:0 3px;}
+.numBtns button.active{background:#F8C160; color:#fff;}
+.numBtns button.arrow{background:#F8C160; color:#fff;}
+
+
+
+/* genre style */
+.genre-section{width: 100%; max-width: 70%; margin: 20px auto;}
+.genre-section span a{font-size: 25px; font-family: 'Black Han Sans', sans-serif; 
+text-transform :uppercase;}
+.genre-section .action,.genre-section .romance,.genre-section .drama{width: 100%; max-width: 95%; margin: 0 auto; padding-top: 10px;}
+.genre-section .action-contents,.genre-section .romance-contents,.genre-section .drama-contents
+{width: 100%; border-top: 2px solid #F8C160; border-bottom: 2px solid #F8C160; margin: 1% auto 2% ;}
+/* .slide-box style */
+.slide-box{width: 100%; height: auto; padding:5px;}
+.slide-box img{width:100%;}
+.slide-box  .slide-txt{padding: 10px 0;margin: 0 auto;}
+.action .slide-box,.romance .slide-box,.drama .slide-box{padding: 20px 0;}
+.action .slide-box a,.romance .slide-box a,.drama .slide-box a{color:#F8C160;  transition: all 0.4S;}
+.action .slide-box a:hover,.romance .slide-box a:hover,.drama .slide-box a:hover{background: #fff; }
