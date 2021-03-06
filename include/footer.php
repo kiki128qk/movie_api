@@ -4,5 +4,6 @@
     <script src="/movie_api/js/Banner.js"></script>
     <script src="/movie_api/js/search.js"></script>
     <script src="/movie_api/js/recent.js"></script>
+    <script src="/movie_api/js/latest.js"></script>
   </body>
 </html>
