@@ -19,8 +19,8 @@ $(function(){
                                 </div>
                                 <span class="overlay">
                                 <div class="show-more">
-                                  <p>평점 :</p>
-                                  <a href="${data.data.movies[i].url.link}">더보기</a>
+                                  <div class="moreRating">평점 : ${data.data.movies[i].rating}</p>
+                                  <a class="moreview" href="${data.data.movies[i].url.link}">자세히 보기</a>
                                 </div>
                                 </span>
                               

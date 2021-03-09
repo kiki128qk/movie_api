@@ -90,9 +90,9 @@ text-transform :uppercase;}
 .outcomeCon{width: 60%; margin: 0 auto;margin: 0 auto;
 padding: 200px 0;}
 
-.movie_box{width: 100%;display: flex; border-top:  1px solid #F8C160;}
+.movie_box{width: 100%;display: flex; border-top:  1px solid #064635;}
 .imgCon{ margin: 10px auto;}
-.movie_box:last-child{border-bottom: 1px solid #F8C160;;}
+.movie_box:last-child{border-bottom: 1px solid #064635;;}
 .movie_box img {width: 150px;}
 .movie_box .TextCon{width: 100%;margin: 30px;}
 .movie_box .TextCon h2{margin:10px 0 20px; font-size: 25px;}
@@ -115,22 +115,23 @@ padding: 200px 0;}
 }
 
 .latest-movies{position: relative;}
-.latest-movies .overlay{position: absolute;
-    width: 80%;
-    height: 80%;
-    left: 10%;
-    top: 7%;
-    border: 1px solid #ffffff;
-    background: rgba(255, 255, 255, 0.8);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: all 0.4s;}
+.latest-movies .overlay{position: absolute;width: 80%;height: 80%;left: 10%;top: 7%;border: 1px solid #ffffff;background: rgba(255, 255, 255, 0.8);display: flex;align-items: center;justify-content: center;opacity: 0;transition: all 0.4s; text-align: center;}
 
 .latest-movies>img{width:100%; transition:all 0.4s;}
-.latest-movies .show-more{font-size: 16px; position: absolute; top: 50%;}
+.latest-movies .show-more{font-size: 18px; position: absolute; top: 25%; left: 30%;}
+.latest-movies .show-more .moreRating{height: 150px;}
+.latest-movies .show-more .moreview{ width: 10%;height: 15px;border: 1px solid #017767; padding: 3px; margin: 0 auto; text-align: center;}
+
 .latest-movies a:hover .latest-img>img{filter: blur(2px);}
  .latest-movies a:hover .overlay{opacity:1;}
+
+/* ------------------------------ */
+
+/* gernre tap style */
+.genbuttons{width:100%; height:auto; padding: 25px 0 0 0; width: 50%;}
+.genbuttons>button{display: block; float: left; width: 33.33%; padding: 15px 0; background:#064635;}
+.genbuttons>button:nth-child(1){border-left: 2px solid #111;}
+.genpanels{ width: 100%; height: auto;}
+.genpanels .genpanel{width: 100%; height: auto; box-sizing: border-box; border: 2px solid #111; padding: 40px 10px; display: none;}
 
 /* ------------------------------ */

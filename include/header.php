@@ -19,12 +19,12 @@
       <header>
         <Section class="header">
         <h1>
-            <a href="http://localhost/movie_api/index.php">The Movie</a>
+            <a href="/movie_api/index.php">The Movie</a>
         </h1>
         <ul class="nav">
-            <li><a href="http://localhost/movie_api/index.php">HOME</a></li>
+            <li><a href="/movie_api/index.php">HOME</a></li>
             <li><a href="/movie_api/latest.php">LATEST</a></li>
-            <li><a href="#">GENRE</a></li>
+            <li><a href="/movie_api/genre.php">GENRE</a></li>
             <li><a href="#">RATTING</a></li>
         </ul>
       </header>
